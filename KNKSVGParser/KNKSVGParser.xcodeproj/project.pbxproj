@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AAF40511A354FCE00CDA08D /* KNKSVGSampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF40501A354FCE00CDA08D /* KNKSVGSampleCell.swift */; };
+		4AB4A80C1A33599E00FFD92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A80B1A33599E00FFD92E /* AppDelegate.swift */; };
+		4AB4A80E1A33599E00FFD92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A80D1A33599E00FFD92E /* ViewController.swift */; };
+		4AB4A8111A33599E00FFD92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4A80F1A33599E00FFD92E /* Main.storyboard */; };
+		4AB4A8131A33599E00FFD92E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4A8121A33599E00FFD92E /* Images.xcassets */; };
+		4AB4A8161A33599E00FFD92E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4A8141A33599E00FFD92E /* LaunchScreen.xib */; };
+		4AB4A8221A33599E00FFD92E /* KNKSVGParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A8211A33599E00FFD92E /* KNKSVGParserTests.swift */; };
+		4AB4A8341A33F9D200FFD92E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A8321A33F9D200FFD92E /* SwiftyJSON.swift */; };
+		4AB4A8411A34203E00FFD92E /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB4A83B1A341FE500FFD92E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4AB4A8491A34A20C00FFD92E /* SHXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A8481A34A20C00FFD92E /* SHXMLParser.m */; };
+		4AB4A84E1A34A68B00FFD92E /* KNKSVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A84D1A34A68B00FFD92E /* KNKSVGView.swift */; };
+		4AB4A8501A34AB6C00FFD92E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4A84F1A34AB6B00FFD92E /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB4A81C1A33599E00FFD92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4A7FE1A33599E00FFD92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB4A8051A33599E00FFD92E;
+			remoteInfo = KNKSVGParser;
+		};
+		4AB4A83A1A341FE500FFD92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		4AB4A83C1A341FE500FFD92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		4AB4A83E1A341FFD00FFD92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4AB4A8401A34201500FFD92E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4AB4A8411A34203E00FFD92E /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4AAF40501A354FCE00CDA08D /* KNKSVGSampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNKSVGSampleCell.swift; sourceTree = "<group>"; };
+		4AB4A8061A33599E00FFD92E /* KNKSVGParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNKSVGParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB4A80A1A33599E00FFD92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB4A80B1A33599E00FFD92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AB4A80D1A33599E00FFD92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AB4A8101A33599E00FFD92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AB4A8121A33599E00FFD92E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AB4A8151A33599E00FFD92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AB4A81B1A33599E00FFD92E /* KNKSVGParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNKSVGParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB4A8201A33599E00FFD92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB4A8211A33599E00FFD92E /* KNKSVGParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNKSVGParserTests.swift; sourceTree = "<group>"; };
+		4AB4A8321A33F9D200FFD92E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4AB4A8471A34A20C00FFD92E /* SHXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHXMLParser.h; sourceTree = "<group>"; };
+		4AB4A8481A34A20C00FFD92E /* SHXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHXMLParser.m; sourceTree = "<group>"; };
+		4AB4A84C1A34A24300FFD92E /* KNKSVGParser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KNKSVGParser-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AB4A84D1A34A68B00FFD92E /* KNKSVGView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNKSVGView.swift; sourceTree = "<group>"; };
+		4AB4A84F1A34AB6B00FFD92E /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB4A8031A33599E00FFD92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4A8181A33599E00FFD92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB4A7FD1A33599E00FFD92E = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8081A33599E00FFD92E /* KNKSVGParser */,
+				4AB4A81E1A33599E00FFD92E /* KNKSVGParserTests */,
+				4AB4A8071A33599E00FFD92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB4A8071A33599E00FFD92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8061A33599E00FFD92E /* KNKSVGParser.app */,
+				4AB4A81B1A33599E00FFD92E /* KNKSVGParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB4A8081A33599E00FFD92E /* KNKSVGParser */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8461A34A20B00FFD92E /* SHXMLParser */,
+				4AB4A8321A33F9D200FFD92E /* SwiftyJSON.swift */,
+				4AB4A84F1A34AB6B00FFD92E /* UIColorExtension.swift */,
+				4AB4A84D1A34A68B00FFD92E /* KNKSVGView.swift */,
+				4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */,
+				4AB4A80B1A33599E00FFD92E /* AppDelegate.swift */,
+				4AB4A80D1A33599E00FFD92E /* ViewController.swift */,
+				4AAF40501A354FCE00CDA08D /* KNKSVGSampleCell.swift */,
+				4AB4A80F1A33599E00FFD92E /* Main.storyboard */,
+				4AB4A8121A33599E00FFD92E /* Images.xcassets */,
+				4AB4A8141A33599E00FFD92E /* LaunchScreen.xib */,
+				4AB4A8091A33599E00FFD92E /* Supporting Files */,
+				4AB4A84C1A34A24300FFD92E /* KNKSVGParser-Bridging-Header.h */,
+			);
+			path = KNKSVGParser;
+			sourceTree = "<group>";
+		};
+		4AB4A8091A33599E00FFD92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A80A1A33599E00FFD92E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB4A81E1A33599E00FFD92E /* KNKSVGParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8211A33599E00FFD92E /* KNKSVGParserTests.swift */,
+				4AB4A81F1A33599E00FFD92E /* Supporting Files */,
+			);
+			path = KNKSVGParserTests;
+			sourceTree = "<group>";
+		};
+		4AB4A81F1A33599E00FFD92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8201A33599E00FFD92E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB4A8361A341FE400FFD92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A83B1A341FE500FFD92E /* Alamofire.framework */,
+				4AB4A83D1A341FE500FFD92E /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB4A8461A34A20B00FFD92E /* SHXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				4AB4A8471A34A20C00FFD92E /* SHXMLParser.h */,
+				4AB4A8481A34A20C00FFD92E /* SHXMLParser.m */,
+			);
+			path = SHXMLParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB4A8051A33599E00FFD92E /* KNKSVGParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB4A8251A33599E00FFD92E /* Build configuration list for PBXNativeTarget "KNKSVGParser" */;
+			buildPhases = (
+				4AB4A8021A33599E00FFD92E /* Sources */,
+				4AB4A8031A33599E00FFD92E /* Frameworks */,
+				4AB4A8041A33599E00FFD92E /* Resources */,
+				4AB4A8401A34201500FFD92E /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB4A83F1A341FFD00FFD92E /* PBXTargetDependency */,
+			);
+			name = KNKSVGParser;
+			productName = KNKSVGParser;
+			productReference = 4AB4A8061A33599E00FFD92E /* KNKSVGParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AB4A81A1A33599E00FFD92E /* KNKSVGParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB4A8281A33599E00FFD92E /* Build configuration list for PBXNativeTarget "KNKSVGParserTests" */;
+			buildPhases = (
+				4AB4A8171A33599E00FFD92E /* Sources */,
+				4AB4A8181A33599E00FFD92E /* Frameworks */,
+				4AB4A8191A33599E00FFD92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB4A81D1A33599E00FFD92E /* PBXTargetDependency */,
+			);
+			name = KNKSVGParserTests;
+			productName = KNKSVGParserTests;
+			productReference = 4AB4A81B1A33599E00FFD92E /* KNKSVGParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB4A7FE1A33599E00FFD92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ken Tominaga";
+				TargetAttributes = {
+					4AB4A8051A33599E00FFD92E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4AB4A81A1A33599E00FFD92E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4AB4A8051A33599E00FFD92E;
+					};
+				};
+			};
+			buildConfigurationList = 4AB4A8011A33599E00FFD92E /* Build configuration list for PBXProject "KNKSVGParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB4A7FD1A33599E00FFD92E;
+			productRefGroup = 4AB4A8071A33599E00FFD92E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4AB4A8361A341FE400FFD92E /* Products */;
+					ProjectRef = 4AB4A8351A341FE400FFD92E /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4AB4A8051A33599E00FFD92E /* KNKSVGParser */,
+				4AB4A81A1A33599E00FFD92E /* KNKSVGParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4AB4A83B1A341FE500FFD92E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 4AB4A83A1A341FE500FFD92E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4AB4A83D1A341FE500FFD92E /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 4AB4A83C1A341FE500FFD92E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB4A8041A33599E00FFD92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB4A8111A33599E00FFD92E /* Main.storyboard in Resources */,
+				4AB4A8161A33599E00FFD92E /* LaunchScreen.xib in Resources */,
+				4AB4A8131A33599E00FFD92E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4A8191A33599E00FFD92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB4A8021A33599E00FFD92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB4A8491A34A20C00FFD92E /* SHXMLParser.m in Sources */,
+				4AB4A80E1A33599E00FFD92E /* ViewController.swift in Sources */,
+				4AB4A80C1A33599E00FFD92E /* AppDelegate.swift in Sources */,
+				4AB4A84E1A34A68B00FFD92E /* KNKSVGView.swift in Sources */,
+				4AAF40511A354FCE00CDA08D /* KNKSVGSampleCell.swift in Sources */,
+				4AB4A8341A33F9D200FFD92E /* SwiftyJSON.swift in Sources */,
+				4AB4A8501A34AB6C00FFD92E /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB4A8171A33599E00FFD92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB4A8221A33599E00FFD92E /* KNKSVGParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB4A81D1A33599E00FFD92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB4A8051A33599E00FFD92E /* KNKSVGParser */;
+			targetProxy = 4AB4A81C1A33599E00FFD92E /* PBXContainerItemProxy */;
+		};
+		4AB4A83F1A341FFD00FFD92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 4AB4A83E1A341FFD00FFD92E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AB4A80F1A33599E00FFD92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB4A8101A33599E00FFD92E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AB4A8141A33599E00FFD92E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB4A8151A33599E00FFD92E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB4A8231A33599E00FFD92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB4A8241A33599E00FFD92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB4A8261A33599E00FFD92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNKSVGParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KNKSVGParser/KNKSVGParser-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		4AB4A8271A33599E00FFD92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNKSVGParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KNKSVGParser/KNKSVGParser-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4AB4A8291A33599E00FFD92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KNKSVGParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNKSVGParser.app/KNKSVGParser";
+			};
+			name = Debug;
+		};
+		4AB4A82A1A33599E00FFD92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KNKSVGParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNKSVGParser.app/KNKSVGParser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB4A8011A33599E00FFD92E /* Build configuration list for PBXProject "KNKSVGParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4A8231A33599E00FFD92E /* Debug */,
+				4AB4A8241A33599E00FFD92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB4A8251A33599E00FFD92E /* Build configuration list for PBXNativeTarget "KNKSVGParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4A8261A33599E00FFD92E /* Debug */,
+				4AB4A8271A33599E00FFD92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB4A8281A33599E00FFD92E /* Build configuration list for PBXNativeTarget "KNKSVGParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB4A8291A33599E00FFD92E /* Debug */,
+				4AB4A82A1A33599E00FFD92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB4A7FE1A33599E00FFD92E /* Project object */;
+}

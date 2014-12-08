@@ -1,0 +1,3 @@
+[submodule "KNKSVGParser/Alamofire"]
+	path = KNKSVGParser/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

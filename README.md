@@ -1,4 +1,16 @@
 #KNKSVGParser
 
-- Convert SVG into UImage
-- Query elements with tag
+Create UIImage and UIView from Github contributioin
+
+##Preparation
+
+- SHXMLParser
+- SwiftyJSON
+- UIColorExtension
+
+##How to use
+
+```
+let contributionView = KNKSVGView(userName: USERNAME) // UIView
+let contributionImage = contributionView.toImage()
+```
